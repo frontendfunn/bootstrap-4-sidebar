@@ -2,14 +2,20 @@
   .mobileMenu {
     transform: translateX(-100%);
     position: fixed;
-    top: 0px;
+    top: 0;
     bottom: 0;
     margin: auto;
     left: 0;
     transition: all ease 0.25s;
+    &.onRight {
+      left: auto;
+      right: 0;
+      transform: translateX(100%);
+    }
     &.open {
       transform: translateX(0%);
     }
+
     .navbar-nav {
       overflow-y: auto;
     }

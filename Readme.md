@@ -1,10 +1,8 @@
-# 🙈 🙉 🙊 Bootstrap 4 Sidebar Menu (from left)
+# 🙈 🙉 🙊 Bootstrap 4 Sidebar Menu (from Right)
 
 ```
-Switch the Repo Branch for Right Side Menu
+Switch the Repo Branch to Master for Left Side Menu
 ```
-
-## 😃 Click here for the 👉 [💥LIVE DEMO](https://frontendfunn.github.io/bootstrap-4-sidebar/)
 
 ---
 

@@ -3,12 +3,18 @@
     -webkit-transform: translateX(-100%);
             transform: translateX(-100%);
     position: fixed;
-    top: 0px;
+    top: 0;
     bottom: 0;
     margin: auto;
     left: 0;
     -webkit-transition: all ease 0.25s;
     transition: all ease 0.25s;
+  }
+  .mobileMenu.onRight {
+    left: auto;
+    right: 0;
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
   }
   .mobileMenu.open {
     -webkit-transform: translateX(0%);
